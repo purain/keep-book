@@ -2,7 +2,7 @@
 * @Author: purain
 * @Date:   2019-06-18 22:12:23
 * @Last Modified by:   purain
-* @Last Modified time: 2019-06-23 19:22:10
+* @Last Modified time: 2019-07-07 16:57:45
 * @E-mail: 1073357107@qq.com
 */
 // 列表模式或图表模式
@@ -61,23 +61,3 @@ export const objToArr = obj => {
 export const ID = () => {
 	return '_'+Math.random().toString(36).substr(2,9);
 }
-
-/**
- *
- * 
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
- */
