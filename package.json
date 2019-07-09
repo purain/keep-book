@@ -17,7 +17,6 @@
     "json-server": "^0.15.0"
   },
   "scripts": {
-    "start": "node server.js",
     "dev": "concurrently \"react-scripts start\" \"yarn run mock\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
